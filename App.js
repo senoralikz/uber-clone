@@ -15,7 +15,7 @@ export default function App() {
     <Provider store={store}>
       <NavigationContainer>
         <SafeAreaProvider>
-          <Stack.Navigator>
+          <Stack.Navigator initialRouteName="HomeScreen">
             <Stack.Screen
               name="HomeScreen"
               component={HomeScreen}
