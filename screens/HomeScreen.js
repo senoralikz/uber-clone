@@ -28,6 +28,8 @@ const HomeScreen = () => {
           }}
           minLength={2}
           fetchDetails={true}
+          returnKeyType="search"
+          // currentLocation={true}
           enablePoweredByContainer={false}
           onPress={(data, details = false) => {
             dispatch(
