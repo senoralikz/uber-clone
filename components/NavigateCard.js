@@ -21,7 +21,7 @@ const NavigateCard = () => {
 
   return (
     <SafeAreaView style={tw`bg-white flex-1`}>
-      <Text style={tw`text-center py-5 text-xl`}>Hello AJ</Text>
+      <Text style={tw`text-center py-5 text-xl`}>Destination</Text>
       <View stlye={tw`border-t border-gray-200 flex-shrink`}>
         <View>
           <GooglePlacesAutocomplete
@@ -48,7 +48,7 @@ const NavigateCard = () => {
             }}
           />
         </View>
-        <NavFavorites />
+        {/* <NavFavorites /> */}
       </View>
       <View
         style={tw`flex-row bg-white justify-evenly py-2 mt-auto border-t border-gray-100`}

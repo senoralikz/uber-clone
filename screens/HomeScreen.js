@@ -50,7 +50,7 @@ const HomeScreen = () => {
           debounce={400}
         />
         <NavOptions />
-        <NavFavorites />
+        {/* <NavFavorites /> */}
       </View>
     </SafeAreaView>
   );
